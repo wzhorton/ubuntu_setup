@@ -10,7 +10,7 @@ sudo chmod +x ~/ubuntu_setup/scripts/*.sh
 #Execute Scripts
 for shfile in ~/ubuntu_setup/scripts/*.sh
 do
-	~/ubuntu_setup/scripts/$shfile
+	./$shfile
 done
 
 #Install Pulse Audio Controls
