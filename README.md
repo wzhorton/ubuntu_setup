@@ -6,8 +6,8 @@ Clone using `git clone https://github.com/wzhorton/ubuntu_setup` into user's hom
 
 Edit the Display Settings such that monitor resolution, frame rate, and position are satisfactory.
 
-Run the main file with `./main.sh` to execute the primary setup sequence. If needed (not likely), make it executable by first running `chmod +x main.sh`. Be prepared to enter a gpg passphrase when prompted.
+Run the main file with `./main.sh` to execute the primary setup sequence. If needed (not likely), make it executable by first running `chmod +x main.sh`. Be prepared to enter y and a few passphrases as each step does not have a -y flag set. 
 
-Activate the native red shift program "Night Light" within Display Settings. Alternatively, the package `redshift-gtk` is functional. Sadly, the very popular f.lux is not functional on Linux.
+Activate the native red shift program "Night Light" within Display Settings. Alternatively, the package `redshift-gtk` is functional. Sadly, the very popular f.lux is not functional on Linux. Additionally, change your background wallpaper.
 
 

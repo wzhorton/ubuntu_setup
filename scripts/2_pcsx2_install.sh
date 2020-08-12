@@ -1,8 +1,8 @@
 #!/bin/sh
 sudo dpkg --add-architecture i386
-sudo add-apt-repository ppa:pcsx2-team/pcsx2-daily -y
-sudo apt update -y
-sudo apt install pcsx2-unstable -y
+sudo add-apt-repository ppa:pcsx2-team/pcsx2-daily 
+sudo apt update 
+sudo apt install pcsx2-unstable 
 gpg -d ~/ubuntu_setup/secure.zip.gpg > ~/ubuntu_setup/secure.zip
 unzip ~/ubuntu_setup/secure.zip
 rm ~/ubuntu_setup/secure.zip
