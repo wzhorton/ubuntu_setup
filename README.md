@@ -4,7 +4,7 @@ This repo contains instructions, scripts, and reminders for setting up my person
 
 ### Pre Execution Setup
 
-Edit the Display Settings such that monitor resolution, frame rate, and position are satisfactory. Activate the native red shift program "Night Light" within Display Settings. Alternatively, the package `redshift-gtk` is functional. Sadly, the very popular f.lux is not functional on Linux. Set the times to be 9:00pm to 7:00am. 
+Edit the Display Settings such that monitor resolution, frame rate, and position are satisfactory. Activate the native red shift program "Night Light" within Display Settings. Alternatively, the package `redshift-gtk` is functional. Sadly, the very popular f.lux is not functional on Linux. Set the times to be 9:00pm to 7:00am. Set the appearance to Dark.
 
 ### Primary Setup Script
 
