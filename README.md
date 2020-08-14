@@ -8,7 +8,7 @@ Edit the Display Settings such that monitor resolution, frame rate, and position
 
 ### Primary Setup Script
 
-Clone using `git clone https://github.com/wzhorton/ubuntu_setup` into user's home directory. Be sure to have sudo privelages. Move into the new directory and run the main file with `./main.sh` to execute the primary setup sequence. If needed (not likely), make it executable by first running `chmod +x main.sh`. Be prepared to respond to prompts (which are mostly front loaded). Expect 15 minutes of run time (mainly from the Citra build).
+Clone using `git clone https://github.com/wzhorton/ubuntu_setup` into user's home directory. Be sure to have sudo privelages. Move into the new directory and run the main file with `./main.sh` to execute the primary setup sequence. If needed (not likely), make it executable by first running `chmod +x main.sh`. Be prepared to respond to prompts (which are mostly front loaded). Expect 30 minutes of run time (mainly from the graphics drivers and the Citra build).
 
 ### Post Execution Setup
 
