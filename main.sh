@@ -1,18 +1,15 @@
 #!/bin/sh
 
 #Update Repos
-sudo apt update 
-sudo apt upgrade 
+sudo apt update -y
+sudo apt upgrade -y
 
 #Give scripts executable permission (probably not needed)
-sudo chmod +x ~/ubuntu_setup/scripts/*.sh
+chmod +x ~/ubuntu_setup/misc/set_permissions.sh
+~/ubuntu_setup/misc/set_permissions.sh
 
 #Execute Scripts
 for shfile in ~/ubuntu_setup/scripts/*.sh
 do
 	$shfile
 done
-
-#Install Pulse Audio Controls and htop
-sudo apt install htop pavucontrol 
-
