@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Link monitor config to gdm3 login manager. Will error out if monitor defaults are left unchanged as no xml file is generated.
+sudo ln ~/.config/monitors.xml /var/lib/gdm3/.config/
+
+# Update nvidia drivers
+sudo add-apt-repository ppa:graphics-drivers -y
+sudo apt update -y
+sudo apt install $(apt search nvidia-driver-* | grep "^nvidia-driver-" | tail -1 | awk -F"[,/]+" '{print $1}') -y
+
+# Set background image
+gsettings set org.gnome.background picture-uri file:///home/zach/ubuntu_setup/misc/gbp_background.jpeg
