@@ -13,3 +13,5 @@ for shfile in ~/ubuntu_setup/scripts/*.sh
 do
 	$shfile
 done
+
+sudo reboot
