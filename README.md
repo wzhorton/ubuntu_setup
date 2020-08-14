@@ -14,5 +14,11 @@ Clone using `git clone https://github.com/wzhorton/ubuntu_setup` into user's hom
 
 Reboot the system for some changes to take effect. Update, upgrade, and autoremove packages. This is critical.
 
-Mouse software for the Pictek T7 can be found online. Installing the software will require the use of a windows machine. One option is to use a virtual machine. This can be done by running `sudo apt install virtualbox` and by downloading a windows 10 home 64-bit iso file. Then, launch the application as root, configure the usb to accept the mouse as direct input, then install windows. Download the software and set the mouse as desired. 
+Mouse software for the Pictek T7 can be found online. Installing the software will require the use of a windows machine. One option is to use a virtual machine. This can be done by running `sudo apt install virtualbox` and by downloading a windows 10 home 64-bit iso file. Then, launch the application as root, configure the usb to accept the mouse as direct input, then install windows. Download the software and set the mouse as desired. I prefer a DPI of 2000 and to have the forward/backward buttons disabled as well as the following colors:
+
+- Red (255, 5, 0)
+- Orange/Gold (255, 70, 0)
+- Blue/Cyan (0, 255, 255)
+- Green/Teal (0, 255, 70)
+- Pale Purple (180, 70, 255)
 
