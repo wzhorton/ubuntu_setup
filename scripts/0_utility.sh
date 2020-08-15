@@ -11,3 +11,8 @@ sudo apt install unrar -y
 
 # 12 Hour Clock Format
 gsettings set org.gnome.desktop.interface clock-format '12h'
+
+# Add PS4 Controller Driver For USB Use
+# To use, run "sudo ds4drv --hidraw". Set permissions to avoid sudo.
+sudo apt install install python3-pip -y
+sudo pip install ds4drv -y

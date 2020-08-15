@@ -14,4 +14,4 @@ do
 	$shfile
 done
 
-sudo reboot
+#sudo reboot

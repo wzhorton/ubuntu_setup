@@ -16,3 +16,5 @@ mv ~/ubuntu_setup/ps2_bios/* ~/.config/PCSX2/bios
 rm ~/ubuntu_setup/secure.zip
 rm -r ~/ubuntu_setup/ps2_bios
 mkdir -p ~/uranium/roms/ps2
+
+
