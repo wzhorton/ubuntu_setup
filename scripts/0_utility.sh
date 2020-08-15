@@ -14,5 +14,5 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 
 # Add PS4 Controller Driver For USB Use
 # To use, run "sudo ds4drv --hidraw". Set permissions to avoid sudo.
-sudo apt install install python3-pip -y
-sudo pip install ds4drv -y
+sudo apt install python3-pip -y
+sudo pip3 install ds4drv
