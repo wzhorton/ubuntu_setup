@@ -22,3 +22,6 @@ Mouse software for the Pictek T7 can be found online. Installing the software wi
 - Green/Teal (0, 255, 70)
 - Pale Purple (180, 70, 255)
 
+Anaconda's setup process can only be completed after a reboot. 
+
+Be sure to open PCSX2 for the first time so that directories exist for restoring your memory card file.
