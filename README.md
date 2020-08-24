@@ -22,6 +22,8 @@ Mouse software for the Pictek T7 can be found online. Installing the software wi
 - Green/Teal (0, 255, 70)
 - Pale Purple (180, 70, 255)
 
+Alternatively to a VM is to create a bootable usb drive. This process is tedious, and virtually impossible on macos. The drive must either be FAT32 or NTSF format, however there is a file larger than 4gb in current iso's, so FAT32 doesn't work. The program WoeUSB (installed via snap) is finicky, but ultimately reliable in making a bootable drive.
+
 Anaconda's setup process can only be completed after a reboot. 
 
 Be sure to open PCSX2 for the first time so that directories exist for restoring your memory card file.
