@@ -16,3 +16,6 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 # To use, run "sudo ds4drv --hidraw". Set permissions to avoid sudo.
 sudo apt install python3-pip -y
 sudo pip3 install ds4drv
+
+# Network Tools
+sudo apt install net-tools -y
