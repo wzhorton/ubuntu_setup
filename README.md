@@ -31,3 +31,5 @@ Be sure to open PCSX2 for the first time so that directories exist for restoring
 Not all ethernet networks are plug and play, particularly newer RealTek devices. If needed, run `sudo lshw -C network` and find the wired network line, which usually contains a statement like UNCLAIMED. Find the entry labelled "product:" and note the model number and type. Google the driver for it, download, and install. Don't bother with apt or ppa stuff as it is likely out of date.
 
 Take some time to import bookmarks and configure Brave and Mailspring. The process is tedious but cannot really be automated.
+
+rsync iTunes library over ssh. Point rythmbox to it. The directory exists within uranium.

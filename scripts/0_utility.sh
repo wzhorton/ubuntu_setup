@@ -19,3 +19,9 @@ sudo pip3 install ds4drv
 
 # Network Tools
 sudo apt install net-tools -y
+
+# GNOME Tweaks
+sudo apt install gnome-tweaks -y
+git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
+gnome-extensions enable audio-output-switcher@anduchs
+
