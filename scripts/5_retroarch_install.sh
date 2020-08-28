@@ -1,10 +1,11 @@
 #!/bin/sh
 
-# Install RetroArch
-sudo add-apt-repository ppa:libretro/stable -y
-sudo apt update -y
-sudo apt-get install retroarch-* -y
-sudo apt-get install libretro-* -y
+# Install RetroArch. The PPA has downloader issues and cores are in wrong folder
+#sudo add-apt-repository ppa:libretro/stable -y
+#sudo apt update -y
+#sudo apt-get install retroarch-* -y
+#sudo apt-get install libretro-* -y
+sudo snap install retroarch
 
 # Add Directories
 
