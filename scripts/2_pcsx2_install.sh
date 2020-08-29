@@ -7,7 +7,8 @@ sudo apt update
 sudo apt install pcsx2-unstable -y
 
 # Bios Setup and Placement
-gpg -d ~/ubuntu_setup/secure.zip.gpg > ~/ubuntu_setup/secure.zip
+#gpg --passphrase "sh4d351@y3r" -d ~/ubuntu_setup/secure.zip.gpg > ~/ubuntu_setup/secure.zip
+echo abcd | gpg --batch --yes --passphrase-fd 0 ~/ubuntu_setup/secure.zip.gpg > ~/ubuntu_setup/secure.zip
 unzip ~/ubuntu_setup/secure.zip
 mkdir ~/.config/PCSX2 && mkdir ~/.config/PCSX2/bios
 mv ~/ubuntu_setup/ps2_bios/* ~/.config/PCSX2/bios

@@ -25,3 +25,5 @@ sudo apt install gnome-tweaks -y
 git clone https://github.com/adaxi/audio-output-switcher.git ~/.local/share/gnome-shell/extensions/audio-output-switcher@anduchs
 gnome-extensions enable audio-output-switcher@anduchs
 
+# GIMP
+sudo apt install gimp -y
