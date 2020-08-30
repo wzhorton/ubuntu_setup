@@ -9,4 +9,4 @@ sudo apt update -y
 sudo apt install $(apt search nvidia-driver-* | grep "^nvidia-driver-" | tail -1 | awk -F"[,/]+" '{print $1}') -y
 
 # Set background image
-gsettings set org.gnome.desktop.background picture-uri file:///home/zach/ubuntu_setup/misc/gbp_background.jpeg
+gsettings set org.gnome.desktop.background picture-uri file:///home/zach/ubuntu_setup/misc/gold_canyon.jpg
