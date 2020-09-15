@@ -10,3 +10,6 @@ sudo apt install $(apt search nvidia-driver-* | grep "^nvidia-driver-" | tail -1
 
 # Set background image
 gsettings set org.gnome.desktop.background picture-uri file:///home/zach/ubuntu_setup/misc/gold_canyon.jpg
+
+# Set GTK Theme
+gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"

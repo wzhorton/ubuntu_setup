@@ -27,3 +27,9 @@ gnome-extensions enable audio-output-switcher@anduchs
 
 # GIMP
 sudo apt install gimp -y
+
+# OneNote
+sudo snap install p3x-onenote
+
+# Discord
+sudo snap install discord

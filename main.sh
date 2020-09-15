@@ -19,9 +19,11 @@ echo main.sh has finished. Please REBOOT and run post.sh
 echo
 echo *** A SYSTEM REBOOT IS REQUIRED ***
 echo
-echo After, run post.sh to complete setup
+echo After, post.sh will run automatically
 echo
 echo Press any key to proceed with reboot
 read null_var
+
+(crontab -l 2>/dev/null; echo "@reboot ~/ubuntu_setup/post.sh") | crontab -
 sudo reboot
 
