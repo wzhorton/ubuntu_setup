@@ -12,12 +12,12 @@ rm Anaconda3-2020.07-Linux-x86_64.sh
 # Add Icon to Activities
 echo #!/usr/bin/env xdg-open > tmp
 echo [Desktop Entry] >> tmp
-echo Name=Anaconda >> tmp
+echo Name=Spyder >> tmp
 echo Type=Application >> tmp
-echo Exec=/home/zach/anaconda3/bin/anaconda-navigator >> tmp
-echo Icon=/home/zach/anaconda3/lib/python3.8/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png >> tmp
-echo Comment=Open Anaconda Navigator >> tmp
+echo Exec=/bin/bash -c "export DRROOT="/home/zach/drtools"; source /home/zach/drtools/chronos/bin/drenv home;/home/zach/anaconda3/bin/spyder"
+echo Icon=/home/zach/anaconda3/lib/python3.8/site-packages/spyder/images/spyder.png >> tmp
+echo Comment=Open Spyder with Chronos Env >> tmp
 echo Terminal=false >>tmp
-mv tmp anaconda-navigator.desktop
-mv anaconda-navigator.desktop ~/.local/share/applications/
+mv tmp spyder.desktop
+mv spyder.desktop ~/.local/share/applications/
 
