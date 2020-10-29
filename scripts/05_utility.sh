@@ -28,8 +28,8 @@ gnome-extensions enable audio-output-switcher@anduchs
 # GIMP
 sudo apt install gimp -y
 
-# OneNote
-sudo snap install p3x-onenote
+# Joplin (OneNote alternative)
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
 
 # Discord
 sudo snap install discord
